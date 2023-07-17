@@ -1,6 +1,20 @@
 // changes
 // clear the whole screen each time a command is executed
 // add the ability to run each command again
+/* add the following menu options:
+	5. Get User Information
+ 	6. Get User's Group Memberships
+  	7. Unlock User Account
+   	8. Pull Computer Info from Active Directory
+    
+   Eventual project goals:
+   1. Turn the main menu into a menu that has the options below:
+   	1. Active Directory
+    	2. Exchange
+     	3. User Operations
+      	4. Desktop Operations
+    2. Have a sub menu in each menu option that allows users to choose from options that execute the scripts
+*/
 package main
 
 import (
